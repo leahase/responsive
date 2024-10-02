@@ -19,7 +19,7 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 40px;
     width: 100%;
     align-items: center;
     max-width: 1200px;
@@ -73,13 +73,14 @@ main {
     align-items: center;
     max-width: 100%;
     height: auto;
+   
     
 
 }
 .rubrik {
     font-size: 70px;
     font-family: "Poppins", sans-serif;
-    padding-top: 0;
+    padding-top: 150px;
     line-height: 1.2;
 }
 .text {
@@ -111,18 +112,17 @@ main {
 /* Media queries */
 
 /* mobile */
-@media screen and (max-width: 320px){
-    body {
-        max-width: 320px;
-        padding-top: 30px;
-    }
+@media screen and (max-width: 375px){
     .nav-container {
-        padding-top: 100px;
+        max-width: 375px;
+        height: auto;
     }
     .rubrik {
+        padding: 0;
     }
+    .nav-
 
-}
+    }
     /* Ipad */
 @media screen and (max-width: 768px) {
 
