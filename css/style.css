@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+/* Header */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+
+}
+.logo {
+    display: flex;
+    align-self: flex-start;
+    width: 90px;
+    height: 36px;
+    /* position: relative;
+    top: 62px;
+    left: 286px; */
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    
+
+
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #242635;
+    text-decoration-style: none;
+    
+}
+
+li {
+   list-style-type: none;
+}
+
+/* main */
+main {
+    width: 100%;
+    min-height: 90vh;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+.rubrik {
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 40px;
+    padding-top: 0px;
+    line-height: 102px;
+}
+.text {
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    font-size: 22px;
+    text-align: center;
+    width: 570px;
+    position: relative;
+    top: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+/* Img */
+
+.horses {
+    position: relative;
+    top: 200px;
+
+}
+
+@media screen {
+    
+}
