@@ -18,12 +18,13 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     align-items: center;
     max-width: 1200px;
-    flex-grow: 1;
+
     
 
 }
@@ -114,13 +115,26 @@ main {
 /* mobile */
 @media screen and (max-width: 375px){
     .nav-container {
+        flex-direction: column;
         max-width: 375px;
         height: auto;
+        justify-content: center;
+        margin-bottom: 0;
     }
     .rubrik {
         padding: 0;
     }
-    .nav-
+    .nav-list {
+        flex-direction: column;
+    }
+    .rubrik {
+        padding-top: 20px;
+
+    }
+    .horses {
+        max-width: 100%;
+        margin-top: 20px;
+    }
 
     }
     /* Ipad */
