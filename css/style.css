@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 
@@ -21,9 +26,7 @@ body {
     align-self: flex-start;
     width: 90px;
     height: 36px;
-    /* position: relative;
-    top: 62px;
-    left: 286px; */
+
 
 }
 
@@ -80,8 +83,6 @@ main {
     font-size: 22px;
     text-align: center;
     width: 570px;
-    position: relative;
-    top: 30px;
     flex-wrap: wrap;
 
 
@@ -90,11 +91,14 @@ main {
 /* Img */
 
 .horses {
-    position: relative;
-    top: 200px;
+
 
 }
-
-@media screen {
+/* Media queries */
+/* mobile */
+@media screen and (max-width: 568px){
+    body {
+        max-width: 320px;
+    }
     
 }
