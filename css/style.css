@@ -99,14 +99,13 @@ p {
         justify-content: center;
         margin-bottom: 0;
     }
-    .rubrik {
-        padding: 0;
-    }
     .nav-list {
         flex-direction: column;
+        gap: 10px;
     }
     .rubrik {
         padding-top: 20px;
+        font-size: 2rem;
 
     }
     .horses {
@@ -122,9 +121,15 @@ p {
         height: 100vh;
     }
     .rubrik {
-        margin-top: 230px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
+    .text {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        line-height: 1.7em;
 
+    }
     .horses {
         margin-bottom: 0;
         max-width: 80vw;
