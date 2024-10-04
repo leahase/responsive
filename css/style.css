@@ -103,7 +103,7 @@ p {
         height: 36px;
     
     }
-    .nav-list .overlap {
+    .nav-list  {
         flex-direction: column;
         gap: 10px;
     }
