@@ -9,7 +9,7 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
@@ -43,6 +43,10 @@ li {
 }
 
 /* main */
+.main-container {
+    position: relative;
+    height: 100vh;
+}
 main {
     width: 100%;
     display: grid;
