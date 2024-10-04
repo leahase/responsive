@@ -94,23 +94,34 @@ p {
 @media screen and (max-width: 375px){
     .nav-container {
         flex-direction: column;
-        max-width: 375px;
         height: auto;
         justify-content: center;
-        margin-bottom: 0;
     }
-    .nav-list {
+
+    .logo {
+        width: 90px;
+        height: 36px;
+    
+    }
+    .nav-list .overlap {
         flex-direction: column;
         gap: 10px;
     }
+    main {
+        max-height: 100vh;
+    }
     .rubrik {
-        padding-top: 20px;
-        font-size: 2rem;
-
+        padding-top: 0;
+        font-size: 36px;
+    }
+    p {
+        font-size: 18px !important;
+        color: #242635;
     }
     .horses {
         max-width: 100%;
-        margin-top: 20px;
+
+
     }
 
     }
@@ -124,7 +135,7 @@ p {
         margin-top: 0px;
         margin-bottom: 20px;
     }
-    .text {
+    p {
         font-size: 1.4rem;
         margin-bottom: 20px;
         line-height: 1.7em;
