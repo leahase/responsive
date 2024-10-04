@@ -9,9 +9,11 @@
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .logo { 
@@ -44,8 +46,8 @@ li {
 
 /* main */
 .main-container {
-    position: relative;
-    height: 100vh;
+    
+    padding-bottom: 0;
 }
 main {
     width: 100%;
@@ -54,23 +56,24 @@ main {
     grid-template-rows: auto;
     justify-items: center;
     text-align: center;
-    padding: 30px;
+    
 
 }
 .rubrik {
-    font-size: 3rem;
+    font-size: 90px;
+    font-weight: 400;
     font-family: "Poppins", sans-serif;
     padding-top: 150px;
     line-height: 1.2;
     text-align: center;
 }
-.text {
-    font-family: "Poppins", sans-serif;
-    margin-top: 1.2rem;
-    font-size: 1rem;
+p {
+    font-family: "Source Sans 3", sans-serif; /*could not find exact font family*/
+    padding-top: 20px;
+    font-size: 2rem;
     text-align: center;
-    width: 90%; 
-    max-width: 570px;
+    padding-bottom: 30px;
+    font-weight: 300;
 
 }
 
@@ -79,8 +82,8 @@ main {
 .horses {
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    max-width: 800px;
+    max-width: 85vw;
+    padding-bottom: 0;
 
 
 
