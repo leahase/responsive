@@ -16,20 +16,22 @@ body {
 
 /* Header */
 
-.nav-container {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+/* .nav-container {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 100%;
     align-items: center;
-    max-width: 1200px;
+ */
 
-    
-
-}
-.logo {
-    
+.logo { 
     width: 90px;
     height: 36px;
 
@@ -43,9 +45,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    
-
-
 }
 
 
@@ -63,26 +62,19 @@ li {
 /* main */
 main {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-grow:1;
-}
-.main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-   
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding: 30px;
 
 }
 .rubrik {
-    font-size: 70px;
+    font-size: 3rem;
     font-family: "Poppins", sans-serif;
     padding-top: 150px;
     line-height: 1.2;
+    text-align: center;
 }
 .text {
     justify-content: center;
